@@ -1,7 +1,7 @@
 --
 
 data:
-  object_group_bucket:
+  object_groups:
     - name: group_name
       associatedTags:
         - tag
@@ -10,7 +10,7 @@ data:
         - 192.168.1.10/32
       servicePorts:
         - 'tcp/443' #Description of port
-  hostservicemappingpolicies:
+  policydefinitions:
     name: test rule
     subject:
       - source
