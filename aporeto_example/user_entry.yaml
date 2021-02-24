@@ -1,0 +1,15 @@
+--
+
+data:
+  object_group_name:
+    - name: group_name
+      propagate: true
+      protected: true
+      associatedTags:
+        - tag
+      entries:
+        - 192.168.1.1/32
+        - 192.168.1.10/32
+      servicePorts:
+        - 'tcp/443' #Description of port
+

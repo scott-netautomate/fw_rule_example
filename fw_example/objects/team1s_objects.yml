@@ -1,0 +1,15 @@
+---
+
+- type: object
+  name: object_group_1
+  hosts:
+    - ip: 192.168.1.1/32
+    - name: host1
+    - name: network1
+- type: object
+  name: object_group_1
+  hosts:
+    - ip: 192.168.1.2/32
+    - name: host2
+    - name: network2
+

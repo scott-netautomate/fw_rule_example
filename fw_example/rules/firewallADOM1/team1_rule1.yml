@@ -1,0 +1,23 @@
+---
+
+
+- type: rule
+  rule_name: important_rule_1
+  description: test rule
+  direction: in
+  sources:
+    hosts:
+      - host1
+    groups:
+      - object_group_1
+  dests:
+    hosts:
+      - host2
+    groups:
+      - object_group_2
+  services:
+    service:
+    service_group:
+      - web_group
+
+

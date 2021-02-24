@@ -1,0 +1,11 @@
+---
+
+- name: host1
+  ip: 192.168.1.1/32
+- name: host2
+  ip: 192.168.1.2/32
+- name: network1
+  ip: 10.1.1.0/24
+- name: network2
+  ip: 10.1.2.0/24
+

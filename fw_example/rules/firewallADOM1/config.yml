@@ -1,0 +1,3 @@
+---
+#Config file holds all the required details for the firewall.
+target_fw_name: ADOM1

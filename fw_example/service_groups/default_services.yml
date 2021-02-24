@@ -1,0 +1,8 @@
+---
+#Service groups
+
+
+- name: web_group
+  services:
+    - https
+    - http
