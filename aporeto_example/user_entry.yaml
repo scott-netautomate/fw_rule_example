@@ -1,10 +1,8 @@
 --
 
 data:
-  object_group_name:
+  object_group_bucket:
     - name: group_name
-      propagate: true
-      protected: true
       associatedTags:
         - tag
       entries:
@@ -12,4 +10,11 @@ data:
         - 192.168.1.10/32
       servicePorts:
         - 'tcp/443' #Description of port
+  hostservicemappingpolicies:
+    name: test rule
+    subject:
+      - source
+    object:
+      - dest
+
 
